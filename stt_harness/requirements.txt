@@ -1,0 +1,6 @@
+# Person A -- stt_harness/
+sarvamai>=0.1.0          # Sarvam STT SDK
+requests>=2.31.0         # only needed if using the ElevenLabs fallback
+sounddevice>=0.4.6       # local mic recording (record_samples.py) -- your machine only
+scipy>=1.11.0            # writing .wav files in record_samples.py
+python-dotenv>=1.0.0     # optional: load SARVAM_API_KEY from a .env file
